@@ -1,0 +1,4 @@
+1. Keep app project
+2. From command prompt got to app project
+3. run command "npm install" (it will install all dependent modules including bower.)
+4. If everything run fine then run command "npm start" it will run your project in the browser.

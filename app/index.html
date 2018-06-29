@@ -1,0 +1,49 @@
+
+    <!DOCTYPE html>
+    <html ng-app="testApp" ng-controller="globalController">
+    <head>
+      <title>Test App</title>
+      
+      <meta name="viewport" content="width=device-width" />
+      <link rel="stylesheet" href="styles/style.css" />
+      <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css" />
+    </head>
+    <body >
+
+        <!-- HEADER AND NAVBAR -->
+        
+
+        <!-- MAIN CONTENT AND INJECTED VIEWS -->
+        <div class="main_section"  ng-view>
+
+            
+            <!-- this is where content will be injected -->
+
+        </div>
+       
+        <script src="scripts/libs/jquery-1.9.1.min.js"></script>  
+  
+  
+<!-- build:js scripts/components.min.js -->
+  <!-- bower:js -->
+  <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
+  <script src="bower_components/angular/angular.js"></script>
+  <script src="bower_components/angular-animate/angular-animate.js"></script>
+  <script src="bower_components/angular-cookies/angular-cookies.js"></script>
+  <script src="bower_components/angular-route/angular-route.js"></script>
+  <script src="bower_components/angular-touch/angular-touch.js"></script>
+  <!-- endbower -->
+
+  <!-- endbuild -->
+
+  <!-- build:js scripts/app.min.js -->
+  <script src="scripts/constant.js"></script>
+  <script src="scripts/app.js"></script>
+  <script src="scripts/controllers/globalController.js"></script>
+  <script src="scripts/controllers/homeController.js"></script>
+  <script src="scripts/services/service.js"></script>
+ 
+  <!-- endbuild -->
+
+    </body>
+    </html>
